@@ -4,6 +4,48 @@ import { Experience } from "./Experience";
 import { motion } from "framer-motion";
 
 export default function Env() {
+
+  const quotes = [
+    {
+      quote: "Design is not just what it looks like and feels like. Design is how it works.",
+      author: "Steve Jobs",
+    },
+    {
+      quote: "Art challeges Technology, Technology inspires Art",
+      author: "John Lassetter",
+    },
+    {
+      quote: "Simplicity is the ultimate sophistication.",
+      author: "Leonardo da Vinci",
+    },
+    {
+      quote: "Any sufficiently advanced technology is indistinguishable from magic.",
+      author: "Arthur C. Clarke",
+    },
+    {
+      quote: "You can't use up creativity. The more you use, the more you have.",
+      author: "Maya Angelou",
+    },
+    {
+      quote: "Design is thinking made visual.",
+      author: "Saul Bass",
+    },
+    // Add more quotes and authors here...
+  ];
+  
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    // Update the quote every 5 seconds (5000 milliseconds)
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % quotes.length);
+    }, 15000);
+
+    // Clear the interval when the component unmounts to avoid memory leaks
+    return () => clearInterval(interval);
+  }, []);
+
+  const currentQuote = quotes[index];
   function Floor() {
     return (
       <mesh receiveShadow rotation-x={-Math.PI * 0.5} position={[0, , 0]}>
@@ -56,12 +98,31 @@ export default function Env() {
           </motion.h3>
         </div>
       ) : (
-        <Canvas>
+        <div className="greeting">
+        <div className="greet-text">
+        <motion.h1
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        {currentQuote.quote}
+      </motion.h1>
+      <motion.h3
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1}}
+      >
+        {currentQuote.author}
+      </motion.h3>
+        </div>
+        <Canvas className="avt">
           <color attach="background" args={["#020817"]} />
-
+          
           <Experience />
           <Floor />
         </Canvas>
+        </div>
+      
       )}
     </div>
   );

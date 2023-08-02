@@ -23,21 +23,21 @@ export const Experience = () => {
 
   return (
     <>
+      
       <Stage intensity={0.6} castShadow={false}>
-        <OrbitControls />
-
+        <OrbitControls />      
         <Text
-          position={[0, 2, -0.5]}
-          color=" #DDF5FF"
-          fontSize={getTextFontSize()}
-          maxWidth={4}
-          lineHeight={1}
-          textAlign="center"
-        >
-          hey, there! welcome
-        </Text>
+            position={[0, 2, -0.5]}
+            color="#ffffff"
+            fontSize={getTextFontSize()}
+            maxWidth={4}
+            lineHeight={1}
+            textAlign="center"
+          >
+            hey, there! welcome
+          </Text>
+        <Avatar  ref={avatarRef} />
 
-        <Avatar ref={avatarRef} />
       </Stage>
     </>
   );
