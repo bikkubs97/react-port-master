@@ -402,6 +402,8 @@ p {
 
   .loader {
     margin: 1rem;
+    background-image: url('/images/pane.svg');
+    background-size: cover;
   }
 
   .next {
