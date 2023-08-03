@@ -77,7 +77,7 @@ export default function Env() {
               duration: 1.5,
             }}
           >
-            I am Bikku BS
+            Hi, I'm Bikku BS
           </motion.h1>
 
           <motion.h3 animate={{}}>
@@ -96,6 +96,7 @@ export default function Env() {
                 </motion.h3>
               ))}
           </motion.h3>
+          <h5>hai</h5>
         </div>
       ) : (
         <div className="greeting">
@@ -122,8 +123,9 @@ export default function Env() {
           <Floor />
         </Canvas>
         </div>
-      
+       
       )}
+     
     </div>
   );
 }

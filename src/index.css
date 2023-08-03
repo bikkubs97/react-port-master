@@ -291,8 +291,12 @@ p {
 
 .canvas {
   height: 75vh;
+  margin-left: 3rem;
 }
-
+ .avt{
+  margin-top: 1rem;
+  margin-left: 2rem;
+ }
 
 /* Add the animation keyframes for color gradient animation */
 @keyframes gradientAnimation {
@@ -323,7 +327,7 @@ p {
 
 
   }
-
+ 
   .avt {
     display: none;
   }
@@ -343,7 +347,9 @@ p {
 
   }
 
-
+  h3{
+    display: none;
+  }
   .grid1,
   .grid2 {
     margin-top: 1rem;

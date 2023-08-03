@@ -8,8 +8,8 @@ export const Experience = () => {
   const avatarRef = useRef();
 
   useFrame(() => {
-    camera.position.y = 0.4;
-    camera.position.z = 2.3; // Move camera further away from the front
+    camera.position.y = 1;
+    camera.position.z = 1.6; // Move camera further away from the front
     camera.lookAt(0, 0, 0);
     
   });
@@ -26,16 +26,6 @@ export const Experience = () => {
       
       <Stage intensity={0.6} castShadow={false}>
         <OrbitControls />      
-        <Text
-            position={[0, 2, -0.5]}
-            color="#ffffff"
-            fontSize={getTextFontSize()}
-            maxWidth={4}
-            lineHeight={1}
-            textAlign="center"
-          >
-            hey, there! welcome
-          </Text>
         <Avatar  ref={avatarRef} />
 
       </Stage>
