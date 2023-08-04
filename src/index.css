@@ -124,6 +124,7 @@ button:hover {
   opacity: 0.2;
   margin-left: 36vw;
   animation: rotateAnimation 5s linear infinite;
+  z-index: -10;
   
 }
 
@@ -301,7 +302,6 @@ p {
   display: flex;
 
   height: 75vh;
-  background-image: url('/images/plane.gif');
   background-size: clip;
   background-repeat: no-repeat;
 

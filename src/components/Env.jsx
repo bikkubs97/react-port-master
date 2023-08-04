@@ -67,7 +67,7 @@ export default function Env() {
     <div className="canvas">
       {isLoading ? (
         <div className="loader">
-          <div className="react"></div>
+           <div className="react"></div>
           <motion.h1 
             initial={{ y: -1000, opacity: 1 }}
             animate={{ y: 0, opacity: 1 }}
@@ -97,21 +97,35 @@ export default function Env() {
                 </motion.h3>
               ))}
           </motion.h3>
-         
+           
         </div>
       ) : (
         <div className="greeting">
         <div className="greet-text">
         <motion.div
-        key={index}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 2 }}
-      >
-        <h1>{currentQuote.quote}</h1>
-        <h3>{currentQuote.author}</h3>
-      </motion.div>
+            key={index}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -30 }}
+            transition={{ duration: 1, type: "spring", stiffness: 150 }}
+            whileHover={{ scale: 1.1 }} // Scale up the text elements on hover
+          >
+            <motion.h1
+              initial={{ scale: 0.8 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 0.3, type: "spring", stiffness: 150 }}
+            >
+              {currentQuote.quote}
+            </motion.h1>
+            <motion.h3
+              initial={{ scale: 0.8 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 0.6, type: "spring", stiffness: 150 }}
+            >
+              {currentQuote.author}
+            </motion.h3>
+          </motion.div>
+       
         </div>
         <Canvas className="avt">
           <color attach="background" args={["#020817"]} />
