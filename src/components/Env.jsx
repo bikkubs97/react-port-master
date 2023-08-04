@@ -30,7 +30,7 @@ export default function Env() {
       quote: "Design is thinking made visual.",
       author: "Saul Bass",
     },
-    // Add more quotes and authors here...
+   
   ];
   
   const [index, setIndex] = useState(0);
@@ -96,7 +96,7 @@ export default function Env() {
                 </motion.h3>
               ))}
           </motion.h3>
-         
+          <h5>hai</h5>
         </div>
       ) : (
         <div className="greeting">
@@ -125,7 +125,6 @@ export default function Env() {
         </div>
        
       )}
-     
     </div>
   );
 }

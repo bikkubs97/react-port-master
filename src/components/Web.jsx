@@ -22,6 +22,10 @@ const Web = () => {
       link: "https://notes-a0aw.onrender.com/",
     },
     {
+      name: "Customizable dashbord collection with google charts, Created using Typescript, Tailwind CSS and Next JS",
+      link: "https://ui-project-rho.vercel.app/",
+    },
+    {
       name: "Application for creating and saving recipes with authentication, created using React, Node.js, MongoDB and Express.",
       link: "https://foodfiesta-hy9y.onrender.com/",
     },
@@ -60,10 +64,7 @@ const Web = () => {
     }, {
       name: "A tool for converting videos into GIF, Created using React, WASM, FFmpeg and CSS",
       link: "https://github.com/bikkubs97/edit-mate",
-    }, {
-      name: "A tool for creating AI generated images from text input, Created using HTML, CSS, JS, Node.JS, powered by OPENAI API",
-      link: "https://typography-0w56.onrender.com/",
-    },
+    }, 
     // Add more items here
   ];
 
