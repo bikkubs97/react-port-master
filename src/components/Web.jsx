@@ -22,7 +22,7 @@ const Web = () => {
       link: "https://notes-a0aw.onrender.com/",
     },
     {
-      name: "Customizable dashbord collection with google charts, Created using Typescript, Tailwind CSS and Next JS",
+      name: "Customizable dashboard collection with google charts, Created using Typescript, Tailwind CSS and Next JS",
       link: "https://ui-project-rho.vercel.app/",
     },
     {
