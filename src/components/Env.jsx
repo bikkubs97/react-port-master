@@ -80,7 +80,14 @@ export default function Env() {
           >
             Hi, I'm Bikku BS
           </motion.h1>
-
+            <motion.h5   initial={{  opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 120,
+              damping: 10,
+              duration: 2,
+            }}>Welcome to my portfolio</motion.h5>
           <motion.h3 animate={{}}>
             {"I'm Interested in MERN Stack development"
               .split("")

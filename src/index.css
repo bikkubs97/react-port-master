@@ -108,7 +108,9 @@ button:hover {
  
 
 }
-
+h5{
+  display: none;
+}
 .loader {
   text-align: center;
   padding-top: 5rem;
@@ -350,8 +352,13 @@ p {
     height: 90vh;
     overflow-x: hidden;
 
-
-
+ 
+  }
+  h5{
+    display: block;
+    color: #3CFFFC;
+    font-size: 1.2rem;
+    font-weight: 500;
   }
   .react{
     margin-left: 15vw;
