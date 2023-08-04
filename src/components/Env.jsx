@@ -97,7 +97,7 @@ export default function Env() {
                 </motion.h3>
               ))}
           </motion.h3>
-          <h5>hai</h5>
+         
         </div>
       ) : (
         <div className="greeting">
