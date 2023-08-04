@@ -38,7 +38,9 @@ a {
 
 
 }
-
+a:hover{
+ color: #3CFFFC;
+}
 
 .social {
   position: absolute;
@@ -103,6 +105,7 @@ button:hover {
 
   background-color: #DDF5FF;
   color: #020817;
+ 
 
 }
 

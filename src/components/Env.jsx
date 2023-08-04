@@ -102,20 +102,16 @@ export default function Env() {
       ) : (
         <div className="greeting">
         <div className="greet-text">
-        <motion.h1
+        <motion.div
+        key={index}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 2 }}
       >
-        {currentQuote.quote}
-      </motion.h1>
-      <motion.h3
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1}}
-      >
-        {currentQuote.author}
-      </motion.h3>
+        <h1>{currentQuote.quote}</h1>
+        <h3>{currentQuote.author}</h3>
+      </motion.div>
         </div>
         <Canvas className="avt">
           <color attach="background" args={["#020817"]} />
