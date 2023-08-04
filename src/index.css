@@ -109,6 +109,29 @@ button:hover {
 .loader {
   text-align: center;
   padding-top: 5rem;
+
+}
+.react{
+  background-image: url('images/React-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  opacity: 0.2;
+  margin-left: 36vw;
+  animation: rotateAnimation 5s linear infinite;
+  
+}
+
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 h2 {
@@ -327,7 +350,9 @@ p {
 
 
   }
- 
+  .react{
+    margin-left: 15vw;
+  }
   .avt {
     display: none;
   }
@@ -418,6 +443,7 @@ p {
 
   .loader {
     width: 90vw;
+    
 
   }
 

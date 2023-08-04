@@ -67,6 +67,7 @@ export default function Env() {
     <div className="canvas">
       {isLoading ? (
         <div className="loader">
+          <div className="react"></div>
           <motion.h1 
             initial={{ y: -1000, opacity: 1 }}
             animate={{ y: 0, opacity: 1 }}
