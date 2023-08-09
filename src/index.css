@@ -302,7 +302,6 @@ p {
 
 .greeting {
   display: flex;
-
   height: 75vh;
   background-size: clip;
   background-repeat: no-repeat;

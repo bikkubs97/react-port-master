@@ -23,12 +23,14 @@ export const Experience = () => {
 
   return (
     <>
-      
+   
       <Stage intensity={0.6} castShadow={false}>
         <OrbitControls />      
+        
         <Avatar  ref={avatarRef} />
 
       </Stage>
+    
     </>
   );
 };

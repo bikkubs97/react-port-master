@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Experience } from "./Experience";
 import { motion } from "framer-motion";
+import ErrorBoundary from "./ErrorBoundary";
+
 
 export default function Env() {
 
@@ -134,12 +136,16 @@ export default function Env() {
           </motion.div>
        
         </div>
-        <Canvas className="avt">
+        <ErrorBoundary >
+        <Canvas className="avt">       
           <color attach="background" args={["#020817"]} />
           
           <Experience />
           <Floor />
+          
         </Canvas>
+        </ErrorBoundary>
+       
         </div>
        
       )}
