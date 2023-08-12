@@ -315,12 +315,13 @@ p {
   margin-right: 1rem;
   padding-left: 4em;
 
-  width: 50vw;
+  width: 60vw;
 }
 
 .canvas {
   height: 75vh;
   margin-left: 3rem;
+ 
 }
  .avt{
   margin-top: 1rem;
@@ -332,7 +333,6 @@ p {
   0% {
     background-position: 0% 50%;
   }
-
   50% {
     background-position: 100% 50%;
   }
