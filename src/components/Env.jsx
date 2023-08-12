@@ -9,7 +9,7 @@ export default function Env() {
 
   const quotes = [
     {
-      quote: "Design is not just what it looks like and feels like. Design is how it works.",
+      quote: "Design is not just what it looks like and feels like. Design is how it works!",
       author: "Steve Jobs",
     },
     {
@@ -19,10 +19,6 @@ export default function Env() {
     {
       quote: "Simplicity is the ultimate sophistication.",
       author: "Leonardo da Vinci",
-    },
-    {
-      quote: "Any sufficiently advanced technology is indistinguishable from magic.",
-      author: "Arthur C. Clarke",
     },
     {
       quote: "You can't use up creativity. The more you use, the more you have.",
@@ -114,21 +110,16 @@ export default function Env() {
         <motion.div
             key={index}
             initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -30 }}
-            transition={{ duration: 1, type: "spring", stiffness: 80 }}
-            whileHover={{ scale: 1.1 }} // Scale up the text elements on hover
+            animate={{ opacity: 1, y: 0 }} // Scale up the text elements on hover
           >
             <motion.h1
-              initial={{ scale: 0.8 }}
-              animate={{ scale: 1 }}
+         
               transition={{ delay: 0.3, type: "spring", stiffness: 80 }}
             >
               {currentQuote.quote}
             </motion.h1>
             <motion.h3
-              initial={{ scale: 0.8 }}
-              animate={{ scale: 1 }}
+         
               transition={{ delay: 0.6, type: "spring", stiffness: 80 }}
             >
               {currentQuote.author}
