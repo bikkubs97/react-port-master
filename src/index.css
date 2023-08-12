@@ -519,14 +519,3 @@ p {
   width: 2px;
   height: 2px;
 }
-.particle:nth-child(3) {
-  animation: particles 180s linear infinite;
-}
-.particle:nth-child(3), .particle:nth-child(3)::after {
-  box-shadow: 0 0 white, 1950px 1915px white, 1695px 1684px white, 2549px 2211px white, 1567px 2334px white, 281px 1415px white, 432px 691px white, 1194px 676px white, 702px 1964px white, 44px 74px white, 1838px 289px white, 601px 1949px white, 1143px 72px white, 433px 529px white, 2480px 1098px white, 1190px 2387px white, 461px 515px white, 1282px 2055px white, 2107px 1097px white, 2271px 197px white, 525px 911px white, 1221px 1892px white, 1524px 1301px white, 1756px 1372px white, 1329px 1691px white, 2403px 346px white, 2078px 2155px white, 1034px 877px white, 336px 860px white, 287px 1930px white, 665px 346px white, 1406px 1827px white, 722px 601px white, 511px 1331px white, 645px 1626px white, 546px 1571px white, 13px 1430px white, 1963px 902px white, 1390px 2025px white, 939px 822px white, 2032px 1384px white, 2232px 2083px white, 1316px 1716px white, 2008px 803px white, 1994px 1929px white, 1651px 1624px white, 382px 1911px white, 162px 2560px white, 2010px 933px white, 1231px 2043px white, 1214px 346px white, 318px 2198px white, 1310px 312px white, 1232px 255px white, 1291px 1857px white, 1536px 1849px white, 743px 360px white, 994px 1004px white, 2334px 2389px white, 229px 273px white, 469px 2081px white, 287px 2417px white, 655px 1945px white, 1477px 809px white, 1520px 11px white, 1946px 672px white, 1556px 1986px white, 758px 1600px white, 377px 2366px white, 1896px 1352px white, 696px 2092px white, 2141px 2186px white, 2524px 365px white, 854px 1519px white, 1250px 2363px white, 1621px 2506px white, 1510px 228px white, 2383px 1892px white, 674px 1680px white, 1611px 1101px white, 685px 2173px white, 1510px 1272px white, 1896px 1004px white, 592px 672px white, 671px 52px white, 886px 1304px white, 1718px 95px white, 1806px 1008px white, 1307px 2310px white, 788px 362px white, 2111px 2122px white, 1383px 1051px white, 791px 668px white, 1738px 990px white, 1265px 700px white, 398px 627px white, 1893px 27px white, 2294px 1015px white, 1884px 2362px white, 2394px 853px white, 471px 1695px white;
-  width: 3px;
-  height: 3px;
-}
-.particle:nth-child(4) {
-  animation: particles 400s linear infinite;
-}
