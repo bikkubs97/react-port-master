@@ -5,6 +5,7 @@ import Design from "./components/Design";
 import About from "./components/About";
 import {motion} from 'framer-motion'
 
+
 function App() {
   const scaleVariants = {
     hover: {
@@ -19,6 +20,12 @@ function App() {
   };
   return (
     <>
+      <div className="space">
+          <div class="particle"></div>
+          <div class="particle"></div>
+           <div class="particle"></div>
+         <div class="particle"></div>
+        </div>
       <motion.div className="home">
         <motion.nav initial={{y:-200}} animate={{y:0}} transition={{delay:3, duration:2 ,stiffness:120}} className="nav">
         <span>
@@ -54,7 +61,8 @@ function App() {
           <Route path="/design" element={<Design />} />
       
         </Routes>
-
+ 
+     
         <div className="footer">
         
         <motion.div initial={{y:400}} animate={{y:0}} transition={{delay:3, duration:2 ,stiffness:120}}  className="social">
