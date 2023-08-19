@@ -113,13 +113,13 @@ export default function Env() {
             animate={{ opacity: 1, y: 0 }} // Scale up the text elements on hover
           >
             <motion.h1
-         
+             
               transition={{ delay: 0.3, type: "spring", stiffness: 80 }}
             >
               {currentQuote.quote}
             </motion.h1>
             <motion.h3
-         
+             
               transition={{ delay: 0.6, type: "spring", stiffness: 80 }}
             >
               {currentQuote.author}

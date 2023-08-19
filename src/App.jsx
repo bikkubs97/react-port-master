@@ -26,6 +26,8 @@ function App() {
            <div class="particle"></div>
          <div class="particle"></div>
         </div>
+      
+        
       <motion.div className="home">
         <motion.nav initial={{y:-200}} animate={{y:0}} transition={{delay:3, duration:2 ,stiffness:120}} className="nav">
         <span>
