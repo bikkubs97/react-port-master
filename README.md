@@ -1,10 +1,9 @@
-# r3f-vite-starter
-A boilerplate to build R3F projects
+# Portfolio
+My portfolio website
+Tech used : 
+React, react-three-fiber, framer motion, css
 
-```
-yarn
-yarn dev
-```
+live at : https://www.bikkubs.live/
 
 
-![image](https://user-images.githubusercontent.com/6551176/221732091-23ee52cb-4150-42fa-b998-43628d7a6b0d.png)
+

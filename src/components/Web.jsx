@@ -18,16 +18,30 @@ const Web = () => {
 
   const items = [
     {
-      name: "Application for creating and saving notes with authentication, created using React, Redux, Node.js, MongoDB and Express.",
-      link: "https://notes-a0aw.onrender.com/",
+      name: "Application that assists users in creating and sharing forms online. Users can record and view responses. Built using React, Tailwind CSS, Node.js, Express, and MongoDB.",
+      link: "https://formflow.onrender.com/"
     },
     {
-      name: "Customizable dashboard collection with google charts, Created using Typescript, Tailwind CSS and Next JS",
+      name: "Customizable dashboard collection with google charts, Created using Typescript, React, React grid layout, Tailwind CSS and Next JS",
       link: "https://ui-project-rho.vercel.app/",
     },
     {
+      name: "Application for creating and saving notes with authentication, created using React, Redux, Node.js, MongoDB and Express.",
+      link: "https://notes-a0aw.onrender.com/",
+    },    
+   
+    {
       name: "Application for creating and saving recipes with authentication, created using React, Node.js, MongoDB and Express.",
       link: "https://foodfiesta-hy9y.onrender.com/",
+    },
+    {
+      name: "An E-commerce application for ordering food online with authentication created using React, Typescript, Tailwind CSS.",
+      link: "https://my-spice.onrender.com/",
+    },
+  
+    {
+      name: "A contacts application for managing contacts and covid data visualization created using React, Typescript, Tailwind CSS.",
+      link: "https://task-p39t.onrender.com/",
     },
   
     {
@@ -64,6 +78,10 @@ const Web = () => {
     }, {
       name: "A tool for converting videos into GIF, Created using React, WASM, FFmpeg and CSS",
       link: "https://github.com/bikkubs97/edit-mate",
+    }, 
+    {
+      name: "A tool for creating AI generated images based on text input created using HTML,CSS,Javascript and, Node.js, Express and OPENAI API",
+      link: "https://github.com/bikkubs97/typography",
     }, 
     // Add more items here
   ];

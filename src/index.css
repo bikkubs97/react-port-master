@@ -195,7 +195,7 @@ h3 {
 }
 
 .grid1 .item1 {
-  background-image: url('/images/notes.png');
+  background-image: url('/images/form.png');
 
   background-size: cover;
 }
@@ -206,54 +206,71 @@ h3 {
 }
 
 .grid1 .item3 {
-  background-image: url('/images/fd.png');
+  background-image: url('/images/notes.png');
   background-size: cover;
 }
 
 .grid1 .item4 {
-  background-image: url('/images/kb.png');
+  background-image: url('/images/fd.png');
   background-size: cover;
 }
 
 .grid1 .item5 {
-  background-image: url('/images/db.png');
+  background-image: url('/images/spice.png');
   background-size: cover;
 }
 
 .grid1 .item6 {
-  background-image: url('/images/weather.png');
+  background-image: url('/images/cont.png');
   background-size: cover;
 }
 
 .grid1 .item7 {
-  background-image: url('/images/cur.png');
+  background-image: url('/images/kb.png');
   background-size: cover;
 }
 
 .grid1 .item8 {
-  background-image: url('/images/node.png');
+  background-image: url('/images/db.png');
   background-size: cover;
 }
 
 .grid1 .item9 {
-  background-image: url('/images/tik.png');
+  background-image: url('/images/weather.png');
   background-size: cover;
 }
 
 .grid1 .item10 {
-  background-image: url('/images/chat.png');
+  background-image: url('/images/cur.png');
   background-size: cover;
 }
 
 .grid1 .item11 {
-  background-image: url('/images/tele.png');
+  background-image: url('/images/node.png');
   background-size: cover;
 }
 
 .grid1 .item12 {
+  background-image: url('/images/tik.png');
+  background-size: cover;
+}
+.grid1 .item13 {
+  background-image: url('/images/chat.png');
+  background-size: cover;
+}
+.grid1 .item14 {
+  background-image: url('/images/tele.png');
+  background-size: cover;
+}
+.grid1 .item15 {
   background-image: url('/images/edit.png');
   background-size: cover;
 }
+.grid1 .item16 {
+  background-image: url('/images/typography.png');
+  background-size: cover;
+}
+
 
 .grid2 .item1 {
   background-image: url('/images/tea.png');
