@@ -35,7 +35,7 @@ const Web = () => {
       link: "https://foodfiesta-hy9y.onrender.com/",
     },
     {
-      name: "An E-commerce application for ordering food online with authentication created using React, Typescript, Tailwind CSS.",
+      name: "An E-commerce application for ordering food online with authentication created using React, Typescript, Tailwind CSS, Mongo DB, Node JS and Express",
       link: "https://my-spice.onrender.com/",
     },
   
