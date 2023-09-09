@@ -40,7 +40,7 @@ const Web = () => {
     },
   
     {
-      name: "A contacts application for managing contacts and covid data visualization created using React, Typescript, Tailwind CSS.",
+      name: "A contacts application for managing contacts and covid data visualization created using React, Redux, Typescript, Tailwind CSS.",
       link: "https://task-p39t.onrender.com/",
     },
   
