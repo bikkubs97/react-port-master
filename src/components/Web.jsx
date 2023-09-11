@@ -18,7 +18,7 @@ const Web = () => {
 
   const items = [
     {
-      name: "Application that assists users in creating and sharing forms online. Users can record and view responses. Built using React, Tailwind CSS, Node.js, Express, and MongoDB.",
+      name: "Application that assists users in creating and sharing forms online. Users can record and view responses. Built using React, Tailwind CSS, Node.js, Express, JWT, and MongoDB.",
       link: "https://formflow.onrender.com/"
     },
     {
@@ -26,7 +26,7 @@ const Web = () => {
       link: "https://ui-project-rho.vercel.app/",
     },
     {
-      name: "Application for creating and saving notes with authentication, created using React, Redux, Node.js, MongoDB and Express.",
+      name: "Application for creating and saving notes with authentication, created using React, Redux, Node.js, JWT, MongoDB and Express.",
       link: "https://notes-a0aw.onrender.com/",
     },    
    
