@@ -12,8 +12,7 @@ body {
   background-color: #020817;
   font-family: 'Nokora', sans-serif;
   overflow: hidden;
-  scroll-behavior: initial;
-
+  scroll-behavior: smooth;
 
 
 }
@@ -47,7 +46,7 @@ a:hover{
   position: absolute;
   right: 0;
   display: flex;
-  right: 0;
+  bottom: 1rem;
   padding-top: 1rem;
 }
 
@@ -99,7 +98,7 @@ button {
   border-radius: 0.5rem;
   color: #DDF5FF;
   font-size: 1.1rem;
-  margin-top: 1rem;
+
 }
 
 button:hover {
@@ -157,12 +156,12 @@ h3 {
 }
 
 .grid1 {
-
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
   margin-left: 4rem;
-
+  top: -1rem;
 
 
 }
@@ -312,7 +311,7 @@ p {
   font-size: 1rem;
   position: absolute;
   right: 20vw;
-  bottom: 6rem;
+  bottom: 5rem;
 }
 
 .img {
@@ -476,14 +475,10 @@ p {
 
   }
 
-  button {
-    max-width: 30vw;
-    margin-bottom: 1rem;
-    padding: 0.4rem;
-  }
+ 
 
   .footer {
-    margin-top: 3rem;
+    margin-top: 1rem;
     height: 1rem;
     padding-bottom: 0;
   }

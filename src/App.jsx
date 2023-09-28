@@ -96,7 +96,7 @@ function App() {
       
         <a href="/images/bikkubs.pdf" download>
        
-      <motion.button initial={{y:400}} animate={{y:0}} transition={{delay:3, duration:2 ,stiffness:120}}>Download Resume</motion.button>
+      <motion.button className="resume" initial={{y:400}} animate={{y:0}} transition={{delay:3, duration:2 ,stiffness:120}}>Download Resume</motion.button>
         </a>
         </div>
       </motion.div>
