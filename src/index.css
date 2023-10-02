@@ -27,7 +27,8 @@ body {
 
 .nav li {
   display: inline-flex;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   color: #DDF5FF;
 
 }
@@ -99,7 +100,7 @@ button {
   border-radius: 0.5rem;
   color: #DDF5FF;
   font-size: 1.1rem;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
 }
 
 button:hover {
