@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense } from "react";
+import React, { useState, useEffect,useLayoutEffect, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Experience } from "./Experience";
 import { motion } from "framer-motion";
@@ -33,15 +33,14 @@ export default function Env() {
   
   const [index, setIndex] = useState(0);
 
-  useEffect(() => {
-    // Update the quote every 5 seconds (5000 milliseconds)
+  useLayoutEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % quotes.length);
     }, 15000);
-
-    // Clear the interval when the component unmounts to avoid memory leaks
+  
     return () => clearInterval(interval);
-  }, []);
+  }, [quotes.length]);
+  
 
   const currentQuote = quotes[index];
   function Floor() {
