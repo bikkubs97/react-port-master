@@ -166,6 +166,7 @@ h3 {
 
 
 
+
 }
 
 .grid2 {
@@ -407,7 +408,7 @@ p {
   }
   .grid1,
   .grid2 {
-    margin-top: 1rem;
+    margin-top: 3rem;
     display: block;
     margin-left: 0;
 
