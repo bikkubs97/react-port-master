@@ -28,7 +28,7 @@ export default function Logos() {
             lineHeight: '95px',
             color: 'white',
             transform: 'rotate(180deg) translate(191px) rotate(-180deg)', // Slightly bigger translation
-            backgroundImage: 'url("/public/images/mongo-db.png")', // Replace with your image path
+            backgroundImage: 'url("/images/mongo-db.png")', // Replace with your image path
             backgroundSize: 'cover',
           }}
         >
@@ -50,7 +50,7 @@ export default function Logos() {
             lineHeight: '95px', // same as the new height
             color: 'white',
             transform: 'rotate(0deg) translate(191px) rotate(0deg)', // Slightly bigger translation
-            backgroundImage: 'url("/public/images/tailwind.png")', // Replace with your image path
+            backgroundImage: 'url("/images/tailwind.png")', // Replace with your image path
             backgroundSize: 'cover',
           }}
         >
@@ -72,7 +72,7 @@ export default function Logos() {
             lineHeight: '95px',
             color: 'white',
             transform: 'rotate(90deg) translate(191px) rotate(-90deg)', // Slightly bigger translation
-            backgroundImage: 'url("/public/images/react-inro.png")', // Replace with your image path
+            backgroundImage: 'url("/images/react-inro.png")', // Replace with your image path
             backgroundSize: 'cover',
           }}
         >
@@ -95,7 +95,7 @@ export default function Logos() {
             lineHeight: '95px',
             color: 'white',
             transform: 'rotate(270deg) translate(191px) rotate(-270deg)', // Slightly bigger translation
-            backgroundImage: 'url("/public/images/nodejs.png")', // Replace with your image path
+            backgroundImage: 'url("/images/nodejs.png")', // Replace with your image path
             backgroundSize: 'cover',
           }}
         >

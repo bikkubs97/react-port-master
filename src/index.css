@@ -117,7 +117,7 @@ h5 {
   padding-top: 5rem;
 }
 .react {
-  background-image: url('./public/images/react-inro.png');
+  background-image: url('/images/react-inro.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
