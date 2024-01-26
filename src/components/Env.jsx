@@ -68,7 +68,6 @@ export default function Env() {
            <div className="react"></div>
           <motion.h1 
             initial={{ y: -1000, opacity: 1 }}
-            style={{ display: "inline-block" , fontWeight:"bold"}}
             animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
@@ -94,7 +93,7 @@ export default function Env() {
               .map((char, index) => (
                 <motion.h3
                   key={index}
-                  style={{ display: "inline-block" , fontWeight:"bold"}}
+                  style={{ display: "inline-block" }}
                   animate={{
                     opacity: [0, 1],
                     transition: { type: "tween", delay: 0.5 + index * 0.07 },
