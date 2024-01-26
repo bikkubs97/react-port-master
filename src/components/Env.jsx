@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Experience } from "./Experience";
 import { motion } from "framer-motion";
 import ErrorBoundary from "./ErrorBoundary";
+import Logos from "./Logos";
 
 
 export default function Env() {
@@ -67,6 +68,7 @@ export default function Env() {
            <div className="react"></div>
           <motion.h1 
             initial={{ y: -1000, opacity: 1 }}
+            style={{ display: "inline-block" , fontWeight:"bold"}}
             animate={{ y: 0, opacity: 1 }}
             transition={{
               type: "spring",
@@ -78,8 +80,9 @@ export default function Env() {
             Hi, I'm Bikku BS
           </motion.h1>
             <motion.h5   initial={{  opacity: 0 }}
+              style={{color:' #4F46E5'}}
             animate={{ opacity: 1 }}
-            transition={{
+                      transition={{
               type: "spring",
               stiffness: 120,
               damping: 10,
@@ -91,7 +94,7 @@ export default function Env() {
               .map((char, index) => (
                 <motion.h3
                   key={index}
-                  style={{ display: "inline-block" }}
+                  style={{ display: "inline-block" , fontWeight:"bold"}}
                   animate={{
                     opacity: [0, 1],
                     transition: { type: "tween", delay: 0.5 + index * 0.07 },
@@ -128,13 +131,15 @@ export default function Env() {
         </div>
         <ErrorBoundary >
         <Canvas className="avt">       
-          <color attach="background" args={["#020817"]} />
+        
+
           
           <Experience />
           <Floor />
           
         </Canvas>
         </ErrorBoundary>
+        <Logos/>
        
         </div>
         

@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  background-color: #020817;
+  background-color: #ece6ff;
   font-family: "Nokora", sans-serif;
   overflow: hidden;
   scroll-behavior: initial;
@@ -23,53 +23,62 @@ body {
   display: inline-flex;
   padding-left: 1rem;
   padding-right: 1rem;
-  color: #ddf5ff;
+  color: #4F46E5;
 }
 
 a {
   text-decoration: none;
-  color: #ddf5ff;
+  color: #4F46E5;
 }
+
 a:hover {
-  color: #3cfffc;
+  color: #161616;
 }
 
 .social {
   position: absolute;
   right: 0;
   display: flex;
-  right: 0;
+  right: 2;
   padding-top: 1rem;
 }
 
 .git {
   background-image: url("/images/github-mark-white.png");
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   background-size: cover;
-  margin-right: 1rem;
+  margin-left: 0.5rem;
+  opacity:0.6;
+
 }
 
 .insta {
   background-image: url("/images/insta.png");
-  width: 3rem;
-  height: 3rem;
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background-size: cover;
-  margin-right: 1rem;
+  margin-right: 0.8rem;
+  
 }
 
 .link {
   background-image: url("/images/link.png");
-  width: 3rem;
-  height: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-top:0.5rem;
   background-size: cover;
-  margin-right: 1rem;
+ 
 }
 
 h1 {
-  color: #ddf5ff;
+  color: #1a365f;
   font-size: 3rem;
+  font-weight: 500;
   margin-top: 5rem;
+  padding-top: 2;
   margin-bottom: 0;
   padding: 0;
 }
@@ -81,21 +90,24 @@ span {
 
 button {
   margin-left: 1rem;
-  background-color: #020817;
   padding: 1rem;
   outline: none;
-  border: 1px solid #ddf5ff;
+  border: 1px solid #8684FF;
   border-radius: 0.5rem;
   color: #ddf5ff;
-  font-size: 1.1rem;
-  margin-top: 0.6rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  background:  #8684FF;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
+
 button:hover {
-  background-color: #ddf5ff;
-  color: #020817;
+  background-color: #4F46E5;
+  color: #ffffff;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgb(216, 255, 253);
+  box-shadow: 0 2px 8px #4F46E5;
 }
 h5 {
   display: none;
@@ -105,17 +117,35 @@ h5 {
   padding-top: 5rem;
 }
 .react {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg");
+  background-image: url('./public/images/react-inro.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.3;
   margin-left: 36vw;
   animation: rotateAnimation 5s linear infinite;
   z-index: -10;
 }
+.logos{
+  position: absolute;
+  top: 1rem;
+  right: 6rem;
+  z-index: 0;
+  animation: rotateAnimation 15s linear infinite;
+}
+.logos div{
+  box-shadow: 0 2px 8px #4F46E5;
+ 
+}
+.logos div div{
+  box-shadow: 0 2px 8px #4F46E5;
+
+ 
+}
+
+
 
 @keyframes rotateAnimation {
   from {
@@ -127,19 +157,20 @@ h5 {
 }
 
 h2 {
-  color: #3cfffc;
+  color:  #4F46E5;
   font-size: medium;
   font-weight: 400;
 }
 
 h3 {
-  color: #3cfffc;
+  color:  #4F46E5;
   font-size: 2rem;
   margin-top: 0;
   font-weight: 100;
 }
 
 .grid1 {
+  height: 74vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
@@ -147,6 +178,7 @@ h3 {
 }
 
 .grid2 {
+  height: 74vh;
   display: grid;
   grid-template-columns: repeat(2, 0.4fr);
   grid-gap: 5px;
@@ -164,7 +196,8 @@ h3 {
 .grid1 div:hover,
 .grid2 div:hover {
   scale: 1.01;
-  box-shadow: 0 0 6px rgb(255, 255, 255);
+  box-shadow: 0 0 6px rgb(148, 144, 206);
+  border: 0.5px solid rgb(135, 94, 182);
   cursor: pointer;
 }
 
@@ -267,7 +300,7 @@ h3 {
 
 p {
   font-weight: lighter;
-  color: white;
+  color:  #4F46E5;
 }
 
 .design {
@@ -305,13 +338,17 @@ p {
 }
 
 .canvas {
-  height: 75vh;
+  height: 72vh;
   margin-left: 3rem;
+}
+.canvas:hover {
+ cursor: pointer;;
 }
 .avt {
   margin-top: 1rem;
   margin-left: 2rem;
   width: 50vw;
+  z-index:10;
 }
 
 /* Add the animation keyframes for color gradient animation */
@@ -327,7 +364,11 @@ p {
     background-position: 0% 50%;
   }
 }
-
+@media only screen and (max-width: 1250px) {
+  .avt{
+    opacity: 0;
+  }
+}
 @media only screen and (max-width: 767px) {
   body {
     overflow-y: scroll;
@@ -424,8 +465,8 @@ p {
   }
 
   button {
+    margin-top: 2rem;
     max-width: 30vw;
-    margin-bottom: 1rem;
     padding: 0.4rem;
   }
 

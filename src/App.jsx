@@ -4,6 +4,9 @@ import Web from "./components/Web";
 import Design from "./components/Design";
 import About from "./components/About";
 import { motion } from "framer-motion";
+import Logos from './components/Logos'
+
+
 
 function App() {
   const scaleVariants = {
@@ -19,7 +22,6 @@ function App() {
   };
   return (
     <>
-
       <motion.div className="home">
         <motion.nav
           initial={{ y: -200 }}
@@ -58,15 +60,7 @@ function App() {
             transition={{ delay: 3, duration: 2, stiffness: 120 }}
             className="social"
           >
-            <motion.div whileHover="hover" variants={scaleVariants}>
-              <a
-                href="https://github.com/bikkubs97?tab=repositories"
-                target="_blank"
-              >
-                <div className="git"></div>
-              </a>
-            </motion.div>
-            <motion.div whileHover="hover" variants={scaleVariants}>
+             <motion.div whileHover="hover" variants={scaleVariants}>
               <a
                 href="https://www.linkedin.com/in/bikku-bs-325690170/"
                 target="_blank"
@@ -75,6 +69,15 @@ function App() {
               </a>
             </motion.div>
             <motion.div whileHover="hover" variants={scaleVariants}>
+              <a
+                href="https://github.com/bikkubs97?tab=repositories"
+                target="_blank"
+              >
+                <div className="git"></div>
+              </a>
+            </motion.div>
+           
+          <motion.div whileHover="hover" variants={scaleVariants}>
               <a href="https://www.instagram.com/bikku_bs" target="_blank">
                 <div className="insta"></div>
               </a>
@@ -93,6 +96,7 @@ function App() {
           </a>
         </div>
       </motion.div>
+      
     </>
   );
 }

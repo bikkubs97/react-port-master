@@ -11,7 +11,6 @@ export const Experience = () => {
     camera.position.y = 1;
     camera.position.z = 1.6; // Move camera further away from the front
     camera.lookAt(0, 0, 0);
-    
   });
 
   const getTextFontSize = () => {
@@ -23,14 +22,11 @@ export const Experience = () => {
 
   return (
     <>
-   
       <Stage intensity={0.6} castShadow={false}>
-        <OrbitControls />      
-        
-        <Avatar  ref={avatarRef} />
+        <OrbitControls />
 
+        <Avatar ref={avatarRef} />
       </Stage>
-    
     </>
   );
 };
