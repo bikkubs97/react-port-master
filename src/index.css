@@ -49,7 +49,7 @@ a:hover {
   height: 4rem;
   background-size: cover;
   margin-left: 0.5rem;
-  opacity:0.6;
+  opacity:0.4;
 
 }
 
@@ -92,12 +92,12 @@ button {
   margin-left: 1rem;
   padding: 1rem;
   outline: none;
-  border: 1px solid #8684FF;
+  border: 1px solid #BA82FF;
   border-radius: 0.5rem;
   color: #ddf5ff;
   font-size: 1rem;
   margin-top: 2rem;
-  background:  #8684FF;
+  background:  #BA82FF;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   position: relative;
 }
