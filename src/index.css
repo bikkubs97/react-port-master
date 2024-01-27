@@ -145,8 +145,6 @@ h5 {
  
 }
 
-
-
 @keyframes rotateAnimation {
   from {
     transform: rotate(0deg);
@@ -309,6 +307,7 @@ p {
 
 .details {
   padding: 1rem;
+
 }
 
 .next {
@@ -409,6 +408,7 @@ p {
     margin-top: 3rem;
     display: block;
     margin-left: 0;
+    height: 105vh;
   }
 
   .grid1 div,
@@ -448,12 +448,15 @@ p {
 
   .next {
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     left: 0.8rem;
     height: 3rem;
     width: 10rem;
     font-size: 1rem;
     margin-bottom: 1rem;
+  }
+  .grid div{
+    width: 90vw;
   }
 
   .details {
@@ -464,27 +467,22 @@ p {
     width: 90vw;
   }
 
-  button {
-    margin-top: 2rem;
+  button, .footer {
     max-width: 30vw;
     padding: 0.4rem;
+ 
   }
 
   .footer {
-    margin-top: 3rem;
+    
+    margin-top: 70vh;
     height: 1rem;
-    padding-bottom: 0;
+   
+    
   }
   .canvas {
     margin-left: 1rem;
   }
+ 
 }
 
-@keyframes particles {
-  0% {
-    transform: translateY(0px);
-  }
-  100% {
-    transform: translateY(-2560px);
-  }
-}
