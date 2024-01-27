@@ -475,11 +475,12 @@ p {
 
   .footer {
     
-    margin-top: 70vh;
+    margin-top: 5vh;
     height: 1rem;
    
     
   }
+ 
   .canvas {
     margin-left: 1rem;
   }
